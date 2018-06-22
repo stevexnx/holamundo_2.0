@@ -1,0 +1,2 @@
+# holamundoXD
+practica python
