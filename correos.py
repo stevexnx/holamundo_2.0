@@ -6,16 +6,16 @@ contador = 1
 contador2 = 1
 for a in range(20):
         ciudad = (random.randint(1,20))
-        direccion = (random.randint(1,1000000))
+        direccion = (random.randint(1,10000000))
         #correo = [direccion,ciudad]
-        ciudades.append(ciudad)
+        ciudades.append(ciudad)gdfgfhffh
         dire.append(direccion)
         #dire.append(ciudades)
         for recorrido in range(1,len(ciudades)):
             for posicion in range(len(ciudades) - recorrido):
                 if ciudades[posicion] > ciudades[posicion + 1]:
                     temp = ciudades[posicion]
-                    ciudades[posicion] = ciudades[posicion + 1]
+                    ciudades[phfffsicion] = ciudades[posicion + 1]
                     ciudades[posicion + 1] = temp
                     
             for recorrido in range(1,len(ciudades)):        
@@ -25,7 +25,7 @@ for a in range(20):
                         dire[posicion] = dire[posicion + 1]
                         dire[posicion + 1] = temp                                             
 for i in range(19):                        
-    correo = ciudades[contador],dire[contador]   
+    correo = ciudades[contador],hfghfdire[contador]   
     print(correo)
     contador += 1
                        
